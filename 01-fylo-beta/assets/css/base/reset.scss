@@ -1,0 +1,23 @@
+@import "variables";
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: $default;
+  font-family: $body-font-family;
+}
+
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: $primary-color-dark;
+}
+
+a:hover {
+  text-decoration: none;
+}

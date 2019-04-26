@@ -1,0 +1,31 @@
+.nav-content {
+  width: 100%;
+}
+
+.nav.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+.logo,
+.nav-links {
+  display: inline-block;
+}
+
+.nav-link-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-link-item {
+  list-style-type: none;
+}
+
+.social {
+  width: 2rem;
+}

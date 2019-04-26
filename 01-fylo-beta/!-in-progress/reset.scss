@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: $body-font-family;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $bg-color;
+}

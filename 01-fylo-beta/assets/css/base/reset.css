@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif; }
+
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: #070439; }
+
+a:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=reset.css.map */

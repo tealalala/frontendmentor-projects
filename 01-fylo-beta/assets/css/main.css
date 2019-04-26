@@ -1,0 +1,47 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:400,700,700i";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i";
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif; }
+
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: #070439; }
+
+a:hover {
+  text-decoration: none; }
+
+.nav-content {
+  width: 100%; }
+
+.nav.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: pink; }
+
+.logo,
+.nav-links {
+  display: inline-block; }
+
+.nav-link-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+
+.nav-link-item {
+  list-style-type: none; }
+
+.social {
+  width: 2rem; }
+
+/*# sourceMappingURL=main.css.map */
