@@ -1,5 +1,13 @@
 @import "variables";
 
+* {
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -7,8 +15,14 @@ html {
 
 body {
   margin: 0;
+  box-sizing: border-box;
   background-color: $default;
   font-family: $body-font-family;
+}
+
+
+h1 {
+  line-height: 2.0rem;
 }
 
 a:link,
@@ -20,4 +34,9 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

@@ -6,9 +6,26 @@ footer {
   margin: auto; }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1px;
-  background-color: pink; }
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 100vh; }
+
+.container-item {
+  min-height: 100vh; }
+
+.hero-banner {
+  background-image: linear-gradient(240deg, #070439, 75%, #bbb8fa); }
+
+.subheader {
+  color: gray;
+  font-size: 0.9rem; }
+
+.content,
+.nav {
+  padding: 0 50px; }
+
+.content {
+  vertical-align: middle; }
 
 /*# sourceMappingURL=layout.css.map */

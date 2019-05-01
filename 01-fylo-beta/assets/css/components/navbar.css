@@ -6,7 +6,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: pink;
   width: 100%; }
 
 .logo,
@@ -20,9 +19,10 @@
   justify-content: flex-end; }
 
 .nav-link-item {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0 0.8rem; }
 
 .social {
-  width: 2rem; }
+  width: 1.5rem; }
 
 /*# sourceMappingURL=navbar.css.map */
