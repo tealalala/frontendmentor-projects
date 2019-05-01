@@ -18,6 +18,19 @@ a:visited {
 a:hover {
   text-decoration: none; }
 
+article,
+main,
+section,
+footer {
+  width: 100%;
+  margin: auto; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+  background-color: pink; }
+
 .nav-content {
   width: 100%; }
 
