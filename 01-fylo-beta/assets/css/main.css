@@ -26,7 +26,8 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: pink; }
+  background-color: pink;
+  width: 100%; }
 
 .logo,
 .nav-links {
