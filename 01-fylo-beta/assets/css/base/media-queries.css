@@ -1,33 +1,37 @@
 @media screen and (min-width: 375px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1fr;
-    grid-template-areas: "nav" "hero" "content"; }
+    grid-template-rows: 0.2fr 2fr 0.8fr;
+    grid-template-areas: "nav" "hero" "content";
+    min-height: 100vh; }
 
   .item-1 {
     grid-area: nav; }
 
   .item-2 {
     grid-area: hero;
-    background-size: 200px;
     background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
 
   .item-3 {
-    grid-area: content; } }
+    grid-area: content;
+    min-height: 4em;
+    max-height: 100%; } }
 @media screen and (min-width: 1440px) {
   .container {
+    min-height: 100vh;
     grid-template-columns: 0.8fr 1fr;
-    grid-template-rows: 0.2fr 1fr;
+    grid-template-rows: 100px 1fr;
     grid-template-areas: "hero nav" "hero content"; }
 
   .item-1 {
-    grid-area: nav; }
+    grid-area: nav;
+    align-self: center; }
 
   .item-2 {
-    grid-area: hero;
-    background-color: yellow; }
+    grid-area: hero; }
 
   .item-3 {
-    grid-area: content; } }
+    grid-area: content;
+    align-self: center; } }
 
 /*# sourceMappingURL=media-queries.css.map */

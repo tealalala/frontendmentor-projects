@@ -1,72 +1,37 @@
 @import "variables";
 
-// @media screen and (max-width: $mobile) {
-//   body {
-//     background-color: beige;
-//   }
-//
-//   .container {
-//     display: grid;
-//     grid-gap: 20px;
-//     grid-auto-flow: row;
-//     grid-auto-columns: auto;
-//     grid-template-columns: 1fr;
-//     // justify-items: center;
-//   }
-//
-//
-//   header {
-//     background-image: linear-gradient(240deg, $accent-color, 75%, $primary-color-soft);
-//     height: 120%;
-//   }
-//
-// }
-//
-// @media screen and (min-width: $desktop) {
-//   body {
-//     background-color: pink;
-//   }
-//
-//   .container {
-//     display: grid;
-//     grid-gap: 20px;
-//     grid-auto-flow: column;
-//     grid-auto-columns: auto;
-//     grid-template-columns: 1fr;
-//     // grid-template-rows: 2;
-//   }
-// }
-
 @media screen and (min-width: $mobile) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1fr;
+    grid-template-rows: 0.2fr 2fr 0.8fr;
     grid-template-areas:
       "nav"
       "hero"
       "content";
+    min-height: 100vh;
   }
 
   .item-1 {
     grid-area: nav;
-    // z-index: 1;
   }
 
   .item-2 {
     grid-area: hero;
-    background-size: 200px;
     background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
   }
 
   .item-3 {
     grid-area: content;
+    min-height: 4em;
+    max-height: 100%;
   }
 }
 
 @media screen and (min-width: $desktop) {
   .container {
+    min-height: 100vh;
     grid-template-columns: 0.8fr 1fr;
-    grid-template-rows: 0.2fr 1fr;
+    grid-template-rows: 100px 1fr;
     grid-template-areas:
       "hero nav"
       "hero content"
@@ -74,14 +39,15 @@
 
   .item-1 {
     grid-area: nav;
+    align-self: center;
   }
 
   .item-2 {
     grid-area: hero;
-    background-color: yellow;
   }
 
   .item-3 {
     grid-area: content;
+    align-self: center;
   }
 }

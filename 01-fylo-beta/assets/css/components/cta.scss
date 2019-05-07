@@ -1,12 +1,28 @@
 @import "../base/variables";
 
+.cta-text {
+  font-size: 1.4rem;
+  color: $header-color;
+  font-weight: $heading-font-weight;
+}
+
+.signup {
+  padding-top: 1rem;
+}
+
 [type=text] {
   padding-right: 0.5rem;
   border: 1px solid black;
   width: 70%;
+  height: 4rem;
 }
 
-.signup-link {
-  padding: 0 2rem;
+.signup-button {
+  height: 4rem;
   background-color: $accent-color;
+  font-size: 1.4rem;
+}
+
+.sign-button > span {
+  width: 500px;
 }

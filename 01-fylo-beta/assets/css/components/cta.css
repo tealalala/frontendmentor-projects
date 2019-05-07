@@ -1,10 +1,23 @@
+.cta-text {
+  font-size: 1.4rem;
+  color: #130F4A;
+  font-weight: 700; }
+
+.signup {
+  padding-top: 1rem; }
+
 [type=text] {
   padding-right: 0.5rem;
   border: 1px solid black;
-  width: 70%; }
+  width: 70%;
+  height: 4rem; }
 
-.signup-link {
-  padding: 0 2rem;
-  background-color: #05d69b; }
+.signup-button {
+  height: 4rem;
+  background-color: #05d69b;
+  font-size: 1.4rem; }
+
+.sign-button > span {
+  width: 500px; }
 
 /*# sourceMappingURL=cta.css.map */
