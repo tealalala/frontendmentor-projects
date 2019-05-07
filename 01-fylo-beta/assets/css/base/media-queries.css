@@ -1,17 +1,31 @@
-@media screen and (max-width: 375px) {
-  body {
-    background-color: blue; }
-
+@media screen and (min-width: 375px) {
   .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    background-color: pink; }
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-areas: "nav" "hero" "content"; }
 
-  .hero-banner {
-    background-image: linear-gradient(120deg, #070439, 75%, #bbb8fa); } }
+  .item-1 {
+    grid-area: nav; }
+
+  .item-2 {
+    grid-area: hero; }
+
+  .item-3 {
+    grid-area: content; } }
 @media screen and (min-width: 1440px) {
-  body {
-    background-color: black; } }
+  .container {
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: "hero nav" "hero content"; }
+
+  .item-1 {
+    grid-area: nav; }
+
+  .item-2 {
+    grid-area: hero;
+    background-color: yellow; }
+
+  .item-3 {
+    grid-area: content; } }
 
 /*# sourceMappingURL=media-queries.css.map */

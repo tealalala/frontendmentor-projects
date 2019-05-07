@@ -28,7 +28,9 @@ a:hover {
   text-decoration: none; }
 
 img {
-  width: 100%;
-  height: auto; }
+  max-width: 80%;
+  max-height: auto;
+  position: relative;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=reset.css.map */

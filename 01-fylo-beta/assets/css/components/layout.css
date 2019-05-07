@@ -1,31 +1,13 @@
-article,
-main,
-section,
-footer {
-  width: 100%;
-  margin: auto; }
+div {
+  transition: 1.0s ease;
+  background-color: skyblue; }
+
+.item {
+  border: 5px solid black; }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  display: grid;
+  grid-gap: 1rem;
   height: 100vh; }
-
-.container-item {
-  min-height: 100vh; }
-
-.hero-banner {
-  background-image: linear-gradient(240deg, #070439, 75%, #bbb8fa); }
-
-.subheader {
-  color: gray;
-  font-size: 0.9rem; }
-
-.content,
-.nav {
-  padding: 0 50px; }
-
-.content {
-  vertical-align: middle; }
 
 /*# sourceMappingURL=layout.css.map */

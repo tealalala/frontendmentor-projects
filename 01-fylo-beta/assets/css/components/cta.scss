@@ -1,0 +1,12 @@
+@import "../base/variables";
+
+[type=text] {
+  padding-right: 0.5rem;
+  border: 1px solid black;
+  width: 70%;
+}
+
+.signup-link {
+  padding: 0 2rem;
+  background-color: $accent-color;
+}
