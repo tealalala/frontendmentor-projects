@@ -10,4 +10,7 @@ div {
   grid-gap: 1rem;
   height: 100vh; }
 
+.item-2 {
+  background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
+
 /*# sourceMappingURL=layout.css.map */

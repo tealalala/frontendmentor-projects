@@ -40,7 +40,7 @@
 @media screen and (min-width: $mobile) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1fr;
     grid-template-areas:
       "nav"
       "hero"
@@ -49,10 +49,13 @@
 
   .item-1 {
     grid-area: nav;
+    // z-index: 1;
   }
 
   .item-2 {
     grid-area: hero;
+    background-size: 200px;
+    background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
   }
 
   .item-3 {
