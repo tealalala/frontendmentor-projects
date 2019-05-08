@@ -6,4 +6,4 @@ Frontend Mentor solutions with vanilla CSS and JavaScript.
 ---
 
 # Table of Contents
-* 01 - [Fylo beta sign up landing page](01-fylo-beta/)
+* 01 - [Fylo beta sign up landing page](01-fylo-beta-signup-landing/)
