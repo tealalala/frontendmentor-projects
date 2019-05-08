@@ -1,0 +1,21 @@
+@import "../base/variables";
+
+.content-body,
+.footer {
+  padding: 3rem 5rem;
+}
+
+h1 {
+  color: $header-color;
+  font-weight: $heading-font-weight;
+  font-size: 3rem;
+  line-height: 4rem;
+  padding-bottom: 3rem;
+}
+
+.subheader {
+  color: $neutral-color;
+  font-size: 1.3rem;
+  font-weight: $body-font-weight;
+  padding-bottom: 4rem;
+}

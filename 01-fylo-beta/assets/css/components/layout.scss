@@ -1,20 +1,7 @@
 @import "../base/variables";
 
-// article,
-// main,
-// section,
-// footer {
-//   width: 100%;
-//   margin: auto;
-// }
-
-// main {
-//   overflow: auto;
-// }
-
 div {
   transition: 1.0s ease;
-  // background-color: skyblue;
 }
 
 .item {
@@ -24,32 +11,10 @@ div {
 .container {
   display: grid;
   grid-gap: 1rem;
-  // height: 100vh;
-  // overflow: auto;
 }
 
 .item-2 {
   background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
-}
-
-.content-body,
-.footer {
-  padding: 3rem 5rem;
-}
-
-h1 {
-  color: $header-color;
-  font-weight: $heading-font-weight;
-  font-size: 3rem;
-  line-height: 4rem;
-  padding-bottom: 3rem;
-}
-
-.subheader {
-  color: $neutral-color;
-  font-size: 1.3rem;
-  font-weight: $body-font-weight;
-  padding-bottom: 4rem;
 }
 
 .signup {

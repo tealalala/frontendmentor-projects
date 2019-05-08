@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;OACQ;EACN,OAAO,EAAE,SAAS;;AAGpB,EAAG;EACD,KAAK,ECIQ,OAAO;EDHpB,WAAW,ECOS,GAAG;EDNvB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;;AAGtB,UAAW;EACT,KAAK,ECPS,IAAe;EDQ7B,SAAS,EAAE,MAAM;EACjB,WAAW,ECAM,QAAQ;EDCzB,cAAc,EAAE,IAAI",
+"sources": ["content.scss","../base/variables.scss"],
+"names": [],
+"file": "content.css"
+}

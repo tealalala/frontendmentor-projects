@@ -1,0 +1,18 @@
+.content-body,
+.footer {
+  padding: 3rem 5rem; }
+
+h1 {
+  color: #130F4A;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  padding-bottom: 3rem; }
+
+.subheader {
+  color: gray;
+  font-size: 1.3rem;
+  font-weight: 400, 700;
+  padding-bottom: 4rem; }
+
+/*# sourceMappingURL=content.css.map */
