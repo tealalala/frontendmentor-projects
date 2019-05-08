@@ -3,7 +3,7 @@
 @media screen and (min-width: $mobile) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.6fr;
+    grid-template-rows: 0.7fr 0.6fr;
     grid-template-areas:
       "hero"
       "content";
@@ -18,9 +18,6 @@
 
   .item-2 {
     grid-area: hero;
-    // background:
-    //   url("../images/illustration-main.svg"),
-    //   url("../images/bg-intro.svg");
   }
 
   .item-3 {
