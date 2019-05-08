@@ -78,7 +78,7 @@ h1 {
   color: #130F4A;
   font-weight: 700;
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 4.5rem;
   padding-bottom: 3rem; }
 
 .subheader {
@@ -134,6 +134,10 @@ div {
   flex-wrap: nowrap;
   justify-content: space-between; }
 
+.footer {
+  text-align: right;
+  position: relative; }
+
 nav {
   padding: 3rem 5rem; }
 
@@ -153,7 +157,10 @@ nav {
   list-style-type: none;
   padding: 0 0.5rem; }
 
+.logo {
+  width: 10rem; }
+
 .social {
-  width: 1.5rem; }
+  width: 3rem; }
 
 /*# sourceMappingURL=main.css.map */
