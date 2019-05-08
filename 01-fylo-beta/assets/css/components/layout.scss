@@ -13,9 +13,6 @@ div {
   grid-gap: 1rem;
 }
 
-.item-2 {
-  background: no-repeat center / 100% url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
-}
 
 .signup {
   display: flex;
@@ -38,4 +35,8 @@ div {
   }
 }
 
-@media screen and (min-width: $desktop) {}
+@media screen and (min-width: $desktop) {
+  .item-2 {
+    background: no-repeat center / 60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
+  }
+}
