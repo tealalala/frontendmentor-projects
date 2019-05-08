@@ -33,10 +33,6 @@ nav {
   width: 8rem;
 }
 
-.social {
-  width: 2rem;
-}
-
 @media screen and (min-width: $mobile) {
   nav {
     padding: 1.5rem 2.5rem;
@@ -44,10 +40,6 @@ nav {
 
   .logo {
     width: 7rem;
-  }
-
-  .social {
-    width: 1.8rem;
   }
 }
 
