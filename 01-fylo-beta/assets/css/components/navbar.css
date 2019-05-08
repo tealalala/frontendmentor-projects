@@ -23,4 +23,14 @@ nav {
 .social {
   width: 2rem; }
 
+@media screen and (min-width: 375px) {
+  nav {
+    padding: 1.5rem 2.5rem; }
+
+  .logo {
+    width: 7rem; }
+
+  .social {
+    width: 1.8rem; } }
+
 /*# sourceMappingURL=navbar.css.map */

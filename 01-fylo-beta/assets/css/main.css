@@ -38,12 +38,14 @@ img {
 @media screen and (min-width: 375px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.8fr 0.8fr;
-    grid-template-areas: "nav" "hero" "content";
+    grid-template-rows: 1fr 0.6fr;
+    grid-template-areas: "hero" "content";
     min-height: 100vh; }
 
   .item-1 {
-    grid-area: nav; }
+    grid-area: hero;
+    z-index: 1;
+    background-color: transparent; }
 
   .item-2 {
     grid-area: hero;
@@ -162,7 +164,7 @@ div {
   grid-gap: 1rem; }
 
 .item-2 {
-  background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
+  background: no-repeat center/100% url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
 
 .signup {
   display: flex;
@@ -174,6 +176,10 @@ div {
   text-align: right;
   position: relative; }
 
+@media screen and (min-width: 375px) {
+  .item-2 {
+    background-size: 30%;
+    background: no-repeat center/60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); } }
 nav {
   padding: 3rem 5rem; }
 
@@ -198,5 +204,15 @@ nav {
 
 .social {
   width: 2rem; }
+
+@media screen and (min-width: 375px) {
+  nav {
+    padding: 1.5rem 2.5rem; }
+
+  .logo {
+    width: 7rem; }
+
+  .social {
+    width: 1.8rem; } }
 
 /*# sourceMappingURL=main.css.map */

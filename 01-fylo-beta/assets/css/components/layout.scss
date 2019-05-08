@@ -14,7 +14,7 @@ div {
 }
 
 .item-2 {
-  background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
+  background: no-repeat center / 100% url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
 }
 
 .signup {
@@ -28,3 +28,12 @@ div {
   text-align: right;
   position: relative;
 }
+
+@media screen and (min-width: $mobile) {
+  .item-2 {
+    background-size: 30%;
+    background: no-repeat center/ 60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
+  }
+}
+
+@media screen and (min-width: $desktop) {}

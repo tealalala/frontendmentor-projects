@@ -6,7 +6,7 @@ div {
   grid-gap: 1rem; }
 
 .item-2 {
-  background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
+  background: no-repeat center/100% url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
 
 .signup {
   display: flex;
@@ -17,5 +17,10 @@ div {
 .footer {
   text-align: right;
   position: relative; }
+
+@media screen and (min-width: 375px) {
+  .item-2 {
+    background-size: 30%;
+    background: no-repeat center/60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); } }
 
 /*# sourceMappingURL=layout.css.map */
