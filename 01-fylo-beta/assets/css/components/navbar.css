@@ -26,6 +26,24 @@ nav {
     padding: 1.5rem 2.5rem; }
 
   .logo {
-    width: 7rem; } }
+    width: 7rem; }
+
+  .logo-black {
+    display: none; }
+
+  .logo-white {
+    display: block; }
+
+  .fab {
+    color: #FFFFFF; } }
+@media screen and (min-width: 1440px) {
+  .logo-black {
+    display: block; }
+
+  .logo-white {
+    display: none; }
+
+  .fab {
+    color: #000000; } }
 
 /*# sourceMappingURL=navbar.css.map */

@@ -41,8 +41,30 @@ nav {
   .logo {
     width: 7rem;
   }
+
+  .logo-black {
+    display: none;
+  }
+
+  .logo-white {
+    display: block;
+  }
+
+  .fab {
+    color: #FFFFFF;
+  }
 }
 
 @media screen and (min-width: $desktop) {
+  .logo-black {
+    display: block;
+  }
 
+  .logo-white {
+    display: none;
+  }
+
+  .fab {
+    color: #000000;
+  }
 }
