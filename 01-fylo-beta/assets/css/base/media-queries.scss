@@ -3,7 +3,7 @@
 @media screen and (min-width: $mobile) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 2fr 0.8fr;
+    grid-template-rows: 0.1fr 0.8fr 0.8fr;
     grid-template-areas:
       "nav"
       "hero"
