@@ -48,8 +48,7 @@ img {
     background-color: transparent; }
 
   .item-2 {
-    grid-area: hero;
-    background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
+    grid-area: hero; }
 
   .item-3 {
     grid-area: content;
@@ -179,7 +178,7 @@ div {
 @media screen and (min-width: 375px) {
   .item-2 {
     background-size: 30%;
-    background: no-repeat center/60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); } }
+    background: no-repeat center/60% url("../images/illustration-main.svg"), no-repeat bottom/100% url("../images/bg-intro.svg"); } }
 nav {
   padding: 3rem 5rem; }
 
@@ -196,6 +195,7 @@ nav {
   justify-content: flex-end; }
 
 .nav-link-item {
+  color: #FFFFFF;
   list-style-type: none;
   padding: 0 0.5rem; }
 

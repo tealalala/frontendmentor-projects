@@ -11,8 +11,7 @@
     background-color: transparent; }
 
   .item-2 {
-    grid-area: hero;
-    background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); }
+    grid-area: hero; }
 
   .item-3 {
     grid-area: content;

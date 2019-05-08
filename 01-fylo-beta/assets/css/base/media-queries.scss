@@ -3,7 +3,6 @@
 @media screen and (min-width: $mobile) {
   .container {
     grid-template-columns: 1fr;
-    // grid-template-rows: 0.1fr 0.8fr 0.8fr;
     grid-template-rows: 1fr 0.6fr;
     grid-template-areas:
       "hero"
@@ -19,7 +18,9 @@
 
   .item-2 {
     grid-area: hero;
-    background: no-repeat center url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
+    // background:
+    //   url("../images/illustration-main.svg"),
+    //   url("../images/bg-intro.svg");
   }
 
   .item-3 {
@@ -27,6 +28,7 @@
     min-height: 4em;
     max-height: 100%;
   }
+
 }
 
 @media screen and (min-width: $desktop) {

@@ -21,6 +21,6 @@ div {
 @media screen and (min-width: 375px) {
   .item-2 {
     background-size: 30%;
-    background: no-repeat center/60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, #110A6D, #7C78C5); } }
+    background: no-repeat center/60% url("../images/illustration-main.svg"), no-repeat bottom/100% url("../images/bg-intro.svg"); } }
 
 /*# sourceMappingURL=layout.css.map */
