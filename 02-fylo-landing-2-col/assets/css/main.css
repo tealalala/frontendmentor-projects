@@ -26,13 +26,6 @@ a:visited {
   text-align: center;
   color: #3c9f8f !important; }
 
-footer,
-header,
-.get-started,
-.hero,
-.testimonial {
-  padding: 2rem 2rem; }
-
 h1,
 h2,
 .subheader,
@@ -41,6 +34,13 @@ h2,
   padding-bottom: 1.5rem; }
 
 @media screen and (min-width: 375px) {
+  footer,
+  header,
+  .get-started,
+  .hero,
+  .testimonial {
+    padding: 2rem 2rem; }
+
   h1,
   h2,
   .subheader {
@@ -58,6 +58,13 @@ h2,
 
   .subheader {
     font-size: 0.9rem; } }
+@media screen and (min-width: 1440px) {
+  footer,
+  header,
+  .get-started,
+  .hero,
+  .testimonial {
+    padding: 4rem 4rem; } }
 footer {
   color: #f6f6fe;
   background-color: #070439; }
@@ -131,11 +138,15 @@ i.fab {
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between; }
 
 @media screen and (min-width: 375px) {
   .logo > img {
     width: 5rem; } }
+@media screen and (min-width: 1440px) {
+  .logo > img {
+    width: 10rem; } }
 .sign-up {
   display: grid; }
 
@@ -181,10 +192,16 @@ nav > ul {
   width: 100%; }
 
 ul > li {
-  padding-left: 1rem;
-  font-size: 0.9rem;
   font-family: "Raleway", sans-serif; }
 
+@media screen and (min-width: 375px) {
+  ul > li {
+    padding-left: 1rem;
+    font-size: 0.9rem; } }
+@media screen and (min-width: 1440px) {
+  ul > li {
+    padding-left: 4rem;
+    font-size: 1rem; } }
 .testimonial-subheader {
   color: #585989; }
 

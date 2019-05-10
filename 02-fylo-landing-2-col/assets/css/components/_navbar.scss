@@ -7,7 +7,23 @@ nav > ul {
 }
 
 ul > li {
-  padding-left: 1rem;
-  font-size: 0.9rem;
   font-family: $heading-font-family;
+}
+
+
+@media screen and (min-width: $mobile) {
+  ul > li {
+    padding-left: 1rem;
+    font-size: 0.9rem;
+  }
+
+
+}
+
+@media screen and (min-width: $desktop) {
+  ul > li {
+    padding-left: 4rem;
+    font-size: 1rem;
+  }
+
 }

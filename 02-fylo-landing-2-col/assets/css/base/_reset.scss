@@ -32,14 +32,6 @@ a:visited {
       color: $accent-color-cyan !important;
     }
 
-footer,
-header,
-.get-started,
-.hero,
-.testimonial, {
-  padding: 2rem 2rem;
-}
-
 h1,
 h2,
 .subheader,
@@ -50,6 +42,14 @@ h2,
 
 
 @media screen and (min-width: $mobile) {
+  footer,
+  header,
+  .get-started,
+  .hero,
+  .testimonial, {
+    padding: 2rem 2rem;
+  }
+
   h1,
   h2,
   .subheader {
@@ -75,5 +75,11 @@ h2,
 }
 
 @media screen and (min-width: $desktop) {
-
+  footer,
+  header,
+  .get-started,
+  .hero,
+  .testimonial, {
+    padding: 4rem 4rem;
+  }
 }

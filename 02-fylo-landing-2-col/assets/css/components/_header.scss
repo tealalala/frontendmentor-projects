@@ -1,5 +1,6 @@
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -12,5 +13,7 @@ header {
 }
 
 @media screen and (min-width: $desktop) {
-
+  .logo > img {
+    width: 10rem;
+  }
 }
