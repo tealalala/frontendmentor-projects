@@ -1,0 +1,21 @@
+.get-started {
+  background-color: $primary-color-soft;
+  color: $neutral-color-blue;
+}
+    .get-started > h1,
+    .get-started > .subheader {
+      color: $neutral-color-blue;
+    }
+    .get-started-signup {
+      margin: 0 auto;
+      width: 80%;
+    }
+        .get-started-signup > .cta-signup,
+        .get-started-signup > .signup-button {
+          -webkit-box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+          -moz-box-shadow:    4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+          box-shadow:         4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+        }
+        .get-started-signup > .cta-signup {
+          border-color: $neutral-color-blue !important;
+        }

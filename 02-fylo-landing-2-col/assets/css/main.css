@@ -58,6 +58,27 @@ h2,
 
   .subheader {
     font-size: 0.9rem; } }
+.get-started {
+  background-color: #585989;
+  color: #f6f6fe; }
+
+.get-started > h1,
+.get-started > .subheader {
+  color: #f6f6fe; }
+
+.get-started-signup {
+  margin: 0 auto;
+  width: 80%; }
+
+.get-started-signup > .cta-signup,
+.get-started-signup > .signup-button {
+  -webkit-box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+  box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3); }
+
+.get-started-signup > .cta-signup {
+  border-color: #f6f6fe !important; }
+
 header {
   display: flex;
   justify-content: space-between; }
