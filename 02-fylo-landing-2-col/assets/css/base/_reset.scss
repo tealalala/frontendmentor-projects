@@ -1,0 +1,37 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $default;
+  font-family: $body-font-family;
+}
+
+
+h1 {
+  line-height: 2.0rem;
+}
+
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: $primary-color-dark;
+}
+
+a:hover {
+  text-decoration: none;
+}
