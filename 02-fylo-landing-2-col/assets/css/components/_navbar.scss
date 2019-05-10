@@ -1,0 +1,12 @@
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ul > li {
+  padding-left: 1rem;
+  font-family: $heading-font-family;
+}

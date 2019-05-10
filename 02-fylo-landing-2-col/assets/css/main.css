@@ -22,9 +22,26 @@ a:link,
 a:active
 a:hover,
 a:visited {
-  color: #070439; }
-
-a:hover {
+  color: #070439;
   text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.8rem; }
+
+@media screen and (min-width: 375px) {
+  .logo > img {
+    width: 5rem; } }
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%; }
+
+ul > li {
+  padding-left: 1rem;
+  font-family: "Raleway", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

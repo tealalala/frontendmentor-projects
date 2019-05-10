@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.8rem;
+}
+
+
+@media screen and (min-width: $mobile) {
+  .logo > img {
+    width: 5rem;
+  }
+
+}
+
+@media screen and (min-width: $desktop) {
+
+}
