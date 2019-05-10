@@ -1,0 +1,55 @@
+footer {
+  color: $neutral-color-blue;
+  background-color: $primary-color-dark;
+}
+    footer > .logo {
+      background: no-repeat center/ 100% url("../../assets/images/logo-white.svg");
+      height: 100px;
+      width: 180px;
+    }
+    footer > .footer-links {
+      display: grid;
+    }
+        .footer-item-1,
+        .footer-item-2,
+        .footer-item-3 {
+          padding-bottom: 30px;
+        }
+        .footer-item-1 > .phone-items,
+        .footer-item-1 > .mail-items {
+          display: flex;
+          flex-wrap: nowrap;
+        }
+            .phone-item,
+            .mail-item {
+              padding: 0 15px 20px 0;
+            }
+            .about-items,
+            .contact-items {
+              list-style-type: none;
+              margin-left: -20px;
+            }
+                .about-items > li,
+                .contact-items > li {
+                  font-size: 1rem;
+                  padding-bottom: 20px;
+                }
+        .footer-item-4,
+        .social {
+          margin: 0 auto;
+        }
+            i.fab {
+              width: 35px;
+              height: 35px;
+              border: 2px solid $neutral-color-gray;
+              border-radius: 20px;
+              margin: 0.2rem;
+            }
+              .fab {
+                padding: 0.55rem;
+              }
+
+
+@media screen and (min-width: $mobile) {
+
+}
