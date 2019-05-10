@@ -20,15 +20,46 @@ body {
   font-family: $body-font-family;
 }
 
-
-h1 {
-  line-height: 2.0rem;
-}
-
 a:link,
 a:active
 a:hover,
 a:visited {
   color: $primary-color-dark;
   text-decoration: none;
+}
+
+footer,
+header,
+.get-started,
+.hero,
+.testimonial, {
+  padding: 2rem 2rem;
+}
+
+h1,
+.subheader {
+  color: $primary-color-dark;
+  padding-bottom: 1.5rem;
+}
+
+
+@media screen and (min-width: $mobile) {
+  h1,
+  .subheader {
+    text-align: center;
+  }
+
+  h1 {
+    line-height: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .subheader {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media screen and (min-width: $desktop) {
+
 }
