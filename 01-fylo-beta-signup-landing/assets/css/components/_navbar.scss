@@ -26,9 +26,18 @@ nav {
   width: 8rem;
 }
 
+.fab{}
+    .fa-lg {
+      display: inline-block;
+    }
+    
+    .fa-2x {
+      display: none;
+    }
+
 @media screen and (min-width: $mobile-320) and (max-width: $mobile-374) {
   nav {
-    padding: 1.2rem 1.2rem;
+    padding: 1.5rem 2rem;
   }
 
   .logo {
@@ -68,6 +77,35 @@ nav {
   .fab {
     color: #FFFFFF;
   }
+}
+
+@media screen and (min-width: $desktop-768) {
+  nav {
+    padding: 2.5rem 2.5rem;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .logo-black {
+    display: none;
+  }
+
+  .logo-white {
+    display: block;
+  }
+
+  .fab {
+    color: #FFFFFF;
+  }
+      .fa-lg {
+        display: none;
+      }
+      
+      .fa-2x {
+        display: inline-block;
+      }
 }
 
 @media screen and (min-width: $desktop) {

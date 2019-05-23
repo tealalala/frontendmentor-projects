@@ -126,6 +126,34 @@ h1 {
     font-size: 0.8rem;
     font-weight: 400, 700;
     padding-bottom: 2rem; } }
+@media screen and (min-width: 768px) {
+  .content-body,
+  .footer {
+    padding: 3rem 5rem; }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    padding-bottom: 2rem; }
+
+  .subheader {
+    font-size: 1rem;
+    font-weight: 400, 700;
+    padding-bottom: 4rem; } }
+@media screen and (min-width: 1024px) {
+  .content-body,
+  .footer {
+    padding: 3rem 5rem; }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    padding-bottom: 2rem; }
+
+  .subheader {
+    font-size: 1.5rem;
+    font-weight: 400, 700;
+    padding-bottom: 4rem; } }
 @media screen and (min-width: 1440px) {
   .content-body,
   .footer {
@@ -168,15 +196,15 @@ h1 {
   cursor: pointer;
   text-align: center; }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .cta-text {
-    font-size: 1rem; }
+    font-size: 0.7rem; }
 
   [type=text] {
-    height: 3rem; }
+    height: 2rem; }
 
   .signup-button {
-    font-size: 1rem;
+    font-size: 0.7rem;
     width: 30%;
     max-width: 100%; } }
 @media screen and (min-width: 375px) {
@@ -188,6 +216,28 @@ h1 {
 
   .signup-button {
     font-size: 1rem;
+    width: 30%;
+    max-width: 100%; } }
+@media screen and (min-width: 768px) {
+  .cta-text {
+    font-size: 1.3rem; }
+
+  [type=text] {
+    height: 3rem; }
+
+  .signup-button {
+    font-size: 1.3rem;
+    width: 30%;
+    max-width: 100%; } }
+@media screen and (min-width: 1024px) {
+  .cta-text {
+    font-size: 2rem; }
+
+  [type=text] {
+    height: 5rem; }
+
+  .signup-button {
+    font-size: 2rem;
     width: 30%;
     max-width: 100%; } }
 @media screen and (min-width: 1440px) {
@@ -251,9 +301,15 @@ nav {
 .logo {
   width: 8rem; }
 
+.fa-lg {
+  display: inline-block; }
+
+.fa-2x {
+  display: none; }
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
   nav {
-    padding: 1.2rem 1.2rem; }
+    padding: 1.5rem 2rem; }
 
   .logo {
     width: 6rem; }
@@ -281,6 +337,27 @@ nav {
 
   .fab {
     color: #FFFFFF; } }
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 2.5rem 2.5rem; }
+
+  .logo {
+    width: 10rem; }
+
+  .logo-black {
+    display: none; }
+
+  .logo-white {
+    display: block; }
+
+  .fab {
+    color: #FFFFFF; }
+
+  .fa-lg {
+    display: none; }
+
+  .fa-2x {
+    display: inline-block; } }
 @media screen and (min-width: 1440px) {
   .logo-black {
     display: block; }
