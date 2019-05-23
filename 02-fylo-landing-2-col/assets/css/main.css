@@ -147,6 +147,9 @@ header {
 @media screen and (min-width: 1440px) {
   .logo > img {
     width: 10rem; } }
+.hero {
+  display: grid; }
+
 .sign-up {
   display: grid; }
 
@@ -177,13 +180,24 @@ header {
 
 @media screen and (min-width: 375px) {
   .hero {
-    display: flex;
-    flex-direction: column; }
+    grid-template-rows: 1fr 1fr; }
 
   .hero-image {
     order: -1;
     background: no-repeat center/100% url("../../assets/images/illustration-1.svg");
     height: 280px; } }
+@media screen and (min-width: 1440px) {
+  .hero {
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas: "heroContent heroImage"; }
+
+  .hero-text {
+    grid-area: heroContent; }
+
+  .hero-image {
+    grid-area: heroImage;
+    background: no-repeat center/70% url("../../assets/images/illustration-1.svg");
+    height: 300px; } }
 nav > ul {
   list-style-type: none;
   display: flex;
