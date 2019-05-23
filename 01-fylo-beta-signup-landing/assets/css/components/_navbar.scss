@@ -26,7 +26,29 @@ nav {
   width: 8rem;
 }
 
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $mobile-320) and (max-width: $mobile-374) {
+  nav {
+    padding: 1.2rem 1.2rem;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .logo-black {
+    display: none;
+  }
+
+  .logo-white {
+    display: block;
+  }
+
+  .fab {
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: $mobile-375) {
   nav {
     padding: 1.5rem 2.5rem;
   }

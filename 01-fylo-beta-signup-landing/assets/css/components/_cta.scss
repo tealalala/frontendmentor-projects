@@ -32,7 +32,23 @@
   text-align: center;
 }
 
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $mobile-320) {
+  .cta-text {
+    font-size: 1rem;
+  }
+
+  [type=text] {
+    height: 3rem;
+  }
+
+  .signup-button {
+    font-size: 1rem;
+    width: 30%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: $mobile-375) {
   .cta-text {
     font-size: 1rem;
   }

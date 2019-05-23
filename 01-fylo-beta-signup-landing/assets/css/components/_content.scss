@@ -8,7 +8,26 @@ h1 {
   font-weight: $body-font-weight;
 }
 
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $mobile-320) and (max-width: $mobile-374) {
+  .content-body,
+  .footer {
+    padding: 1rem 3rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .subheader {
+    font-size: 0.6rem;
+    font-weight: $body-font-weight;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: $mobile-375) {
   .content-body,
   .footer {
     padding: 1rem 3rem;

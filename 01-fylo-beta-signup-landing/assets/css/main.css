@@ -35,6 +35,25 @@ img {
   position: relative;
   vertical-align: middle; }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.6fr;
+    grid-template-areas: "hero" "content";
+    min-height: 100vh; }
+
+  .item-1 {
+    grid-area: hero;
+    z-index: 1;
+    background-color: transparent; }
+
+  .item-2 {
+    grid-area: hero; }
+
+  .item-3 {
+    grid-area: content;
+    min-height: 4em;
+    max-height: 100%; } }
 @media screen and (min-width: 375px) {
   .container {
     grid-template-columns: 1fr;
@@ -79,6 +98,20 @@ h1 {
   color: gray;
   font-weight: 400, 700; }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .content-body,
+  .footer {
+    padding: 1rem 3rem; }
+
+  h1 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.2rem; }
+
+  .subheader {
+    font-size: 0.6rem;
+    font-weight: 400, 700;
+    padding-bottom: 2rem; } }
 @media screen and (min-width: 375px) {
   .content-body,
   .footer {
@@ -135,6 +168,17 @@ h1 {
   cursor: pointer;
   text-align: center; }
 
+@media screen and (min-width: 320px) {
+  .cta-text {
+    font-size: 1rem; }
+
+  [type=text] {
+    height: 3rem; }
+
+  .signup-button {
+    font-size: 1rem;
+    width: 30%;
+    max-width: 100%; } }
 @media screen and (min-width: 375px) {
   .cta-text {
     font-size: 1rem; }
@@ -172,6 +216,11 @@ div {
   text-align: right;
   position: relative; }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .item-2 {
+    height: 100%;
+    background-size: 30%;
+    background: no-repeat center/60% url("../images/illustration-main.svg"), no-repeat bottom/100% url("../images/bg-intro.svg"); } }
 @media screen and (min-width: 375px) {
   .item-2 {
     background-size: 30%;
@@ -202,6 +251,21 @@ nav {
 .logo {
   width: 8rem; }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  nav {
+    padding: 1.2rem 1.2rem; }
+
+  .logo {
+    width: 6rem; }
+
+  .logo-black {
+    display: none; }
+
+  .logo-white {
+    display: block; }
+
+  .fab {
+    color: #FFFFFF; } }
 @media screen and (min-width: 375px) {
   nav {
     padding: 1.5rem 2.5rem; }

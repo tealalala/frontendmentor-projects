@@ -19,7 +19,17 @@ div {
   position: relative;
 }
 
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $mobile-320) and (max-width: $mobile-374) {
+  .item-2 {
+    height: 100%;
+    background-size: 30%;
+    background:
+      no-repeat center/ 60% url("../images/illustration-main.svg"),
+      no-repeat bottom/ 100% url("../images/bg-intro.svg");
+  }
+}
+
+@media screen and (min-width: $mobile-375) {
   .item-2 {
     background-size: 30%;
     background:
