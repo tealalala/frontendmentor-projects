@@ -2,3 +2,6 @@
 00-*/*
 
 .DS_Store
+
+# Sass - CSS
+.sass-cache/
