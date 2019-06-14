@@ -1,0 +1,31 @@
+// Join
+.join {}
+    h2 {
+      color: $primary-color-cyan;
+    }
+    div > .subheadline {
+       color: $primary-color-yellow;
+    }
+    .join-text {
+      color: $neutral-color-gray-blue;
+    }
+
+.price-info {
+  color: $neutral-color-gray;
+}
+    .cta {
+      background-color: $primary-color-cyan;
+    }
+        .amount-container {
+          padding-top: 10px;
+        }
+          .amount {
+            font-size: 2rem;
+          }
+          .amount-monthly {
+            opacity: 0.5;
+          }
+    .why-us {}
+        .why-us-text {
+          opacity: 0.85;
+        }

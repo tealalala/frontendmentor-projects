@@ -1,18 +1,15 @@
-// Layout
-$mobile-320: 320px;
-$mobile-374: 374px;
 $mobile-375: 375px;
-$desktop-768: 768px;
-$desktop-1024: 1024px;
-$desktop: 1440px;
+$desktop-1440: 1440px;
 
 // Colors
 $primary-color-cyan: hsl(179, 62%, 43%);
+$primary-color-light-cyan: #4ABEBD;
 $primary-color-yellow: hsl(71, 73%, 54%);
 $neutral-color-gray: hsl(204, 43%, 93%);
 $neutral-color-gray-blue: hsl(218, 22%, 67%);
+$background-color: #E6EFF6;
 
 // Typography
 $body-font-size: 16px;
-$body-font-family: 'Karla', sans-serif;
+$body-font-family: "Karla" sans-serif;
 $body-font-weight: 400, 700;

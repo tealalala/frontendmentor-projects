@@ -1,17 +1,115 @@
-* {
-  box-sizing: border-box;
-  border: 0;
-  outline: 0;
-  margin: 0;
-  padding: 0;
-  background: transparent; }
+body {
+  background-color: #E6EFF6;
+  font-size: 1.2rem;
+  font-family: "Karla", sans-serif;
+  line-height: 1.7rem; }
 
-html {
-  box-sizing: border-box;
-  scroll-behavior: smooth; }
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: #2ab2af; }
+
+a:hover {
+  text-decoration: none; }
 
 body {
   margin: 0;
   box-sizing: border-box; }
+
+h2 {
+  color: #2ab2af; }
+
+div > .subheadline {
+  color: #c0df34; }
+
+.join-text {
+  color: #98a6bd; }
+
+.price-info {
+  color: #e5eff5; }
+
+.cta {
+  background-color: #2ab2af; }
+
+.amount-container {
+  padding-top: 10px; }
+
+.amount {
+  font-size: 2rem; }
+
+.amount-monthly {
+  opacity: 0.5; }
+
+.why-us-text {
+  opacity: 0.85; }
+
+section {
+  margin: 0 auto; }
+
+.container {
+  display: grid;
+  grid-template-areas: "join" "price-info";
+  max-width: 800px;
+  background-color: #FFFFFF;
+  border-radius: 7px; }
+
+.join {
+  grid-area: join;
+  padding: 2rem 2.5rem; }
+
+.price-info {
+  grid-area: price-info;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  align-items: stretch;
+  align-content: stretch;
+  max-width: 100%; }
+
+.price-info-item {
+  flex-grow: 1;
+  padding: 2rem 2.5rem;
+  padding-bottom: 35px; }
+
+.cta {
+  background-color: #2ab2af;
+  border-bottom-left-radius: 7px; }
+
+.amount-container {
+  display: flex; }
+
+.amount-monthly {
+  padding-left: 12px; }
+
+button {
+  cursor: pointer;
+  color: #E6EFF6;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 60px;
+  border-radius: 7px;
+  background-color: #c0df34;
+  border-color: #c0df34;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+  -moz-box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+  box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+  margin-top: 25px; }
+
+.why-us {
+  background-color: #4ABEBD;
+  border-bottom-right-radius: 7px; }
+
+footer {
+  text-align: center; }
+
+@media screen and (min-width: 1440px) {
+  .cta {
+    border-bottom-left-radius: 7px; }
+
+  .why-us {
+    border-bottom-right-radius: 7px; } }
 
 /*# sourceMappingURL=main.css.map */
