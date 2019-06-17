@@ -1,9 +1,11 @@
-// Base
+/*
+ * Base
+ */
 body {
-  background-color: $background-color;
-  font-size: 1.2rem;
   font-family: "Karla", sans-serif;
-  line-height: 1.7rem;
+  font-size: 1.3em;
+  line-height: 2rem;
+  background-color: $background-color;
 }
 
 a:link,
