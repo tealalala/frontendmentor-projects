@@ -1,0 +1,137 @@
+/*
+ * Base
+ */
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.3em;
+  line-height: 2rem;
+  background-color: #E6EFF6; }
+
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: #2ab2af; }
+
+a:hover {
+  text-decoration: none; }
+
+/*
+ * Reset
+ */
+body {
+  margin: 0;
+  box-sizing: border-box; }
+
+/*
+ * Content
+ */
+h2 {
+  color: #2ab2af; }
+
+.promo-section-subheadline {
+  color: #c0df34; }
+
+.promo-section-text {
+  color: #98a6bd;
+  opacity: 0.7; }
+
+.promo-section-benefits {
+  color: #e5eff5; }
+
+.cta {
+  background-color: #2ab2af; }
+
+.amount-container {
+  padding-top: 10px; }
+
+.amount {
+  font-size: 4rem;
+  font-weight: 700; }
+
+.amount-monthly {
+  padding-left: 12px;
+  opacity: 0.5; }
+
+.why-us {
+  background-color: #4ABEBD; }
+
+.why-us-text {
+  opacity: 0.85; }
+
+/*
+ * Layout
+*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem; }
+
+section,
+.promo-section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: #FFFFFF;
+  max-width: 90%; }
+
+.promo-section-header {
+  padding: 2rem 2.5rem; }
+
+.cta {
+  padding: 2rem 2.5rem; }
+
+.amount-container {
+  display: flex;
+  padding-top: 30px; }
+
+.cta-text {
+  padding-top: 20px; }
+
+button {
+  cursor: pointer;
+  color: #E6EFF6;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.4rem;
+  background-color: #c0df34;
+  border-color: #c0df34;
+  border-style: none;
+  -webkit-box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+  -moz-box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+  box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24); }
+
+.why-us {
+  padding: 2rem 2.5rem;
+  border-radius: 0 0 0.5rem 0.5rem; }
+
+.why-us-text {
+  padding-bottom: 1rem; }
+
+footer {
+  text-align: center; }
+
+@media screen and (min-width: 1440px) {
+  .promo-section {
+    max-width: 60%; }
+
+  .promo-section-benefits {
+    display: flex;
+    flex-direction: row; }
+
+  .cta,
+  .why-us {
+    flex-basis: 50%; }
+
+  .cta {
+    border-bottom-left-radius: 0.5rem; }
+
+  .why-us {
+    border-bottom-left-radius: 0rem; } }
+
+/*# sourceMappingURL=main.css.map */

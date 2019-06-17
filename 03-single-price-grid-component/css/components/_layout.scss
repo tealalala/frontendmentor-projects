@@ -1,0 +1,85 @@
+/*
+ * Layout
+*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+    section,
+    .promo-section {
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.5rem;
+      background-color: #FFFFFF;
+      max-width: 90%;
+    }
+        .promo-section-header {
+          padding: 2rem 2.5rem;
+        }
+            .promo-section-subheadline {}
+            .promo-section-text {}
+        .promo-section-benefits {}
+            .cta {
+              padding: 2rem 2.5rem;
+            }
+                .amount-container {
+                  display: flex;
+                  padding-top: 30px;
+                }
+                    .amount {}
+                    .amount-monthly {}
+                .cta-text {
+                  padding-top: 20px;
+                }
+                button {
+                  cursor: pointer;
+                  color: $background-color;
+                  font-family: "Karla", sans-serif;
+                  font-size: 1.3rem;
+                  font-weight: 700;
+                  letter-spacing: 1px;
+                  width: 100%;
+                  height: 4rem;
+                  border-radius: 0.4rem;
+                  background-color: $primary-color-yellow;
+                  border-color: $primary-color-yellow;
+                  border-style: none;
+                  -webkit-box-shadow: 0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+                  -moz-box-shadow:    0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+                  box-shadow:         0px 7px 13px 0px rgba(50, 50, 50, 0.24);
+                  // margin-top: 25px;
+                }
+            .why-us {
+              padding: 2rem 2.5rem;
+              border-radius: 0 0 0.5rem 0.5rem;
+            }
+                .why-us-text {
+                  padding-bottom: 1rem;
+                }
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: $desktop-1440) {
+  .promo-section {
+    max-width: 60%;
+  }
+      .promo-section-header {}
+      .promo-section-benefits {
+        display: flex;
+        flex-direction: row;
+      }
+          .cta,
+          .why-us {
+            flex-basis: 50%;
+          }
+          .cta {
+            border-bottom-left-radius: 0.5rem;
+          }
+          .why-us {
+            border-bottom-left-radius: 0rem;
+          }
+}

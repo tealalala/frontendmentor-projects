@@ -1,0 +1,20 @@
+/*
+ * Base
+ */
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.3em;
+  line-height: 2rem;
+  background-color: $background-color;
+}
+
+a:link,
+a:active
+a:hover,
+a:visited {
+  color: $primary-color-cyan;
+}
+
+a:hover {
+  text-decoration: none;
+}
