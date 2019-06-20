@@ -1,0 +1,35 @@
+/*
+ * NavBar 
+ */
+header {}
+    .nav-items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-content: stretch;
+      align-items: stretch;
+      width: 100%;
+      background-color: pink;
+    }
+        .nav-item {
+          display: flex;
+          flex-basis: auto;
+        }
+        .logo {
+          // max-width: 100%;
+          // max-height: auto;
+          // width: 7em;
+        }
+        .try {}
+
+@media screen and (min-width: $mobile-320) and (max-width: $mobile-420) {
+  header {}
+      .nav-items {}
+          .nav-item {}
+          .logo {
+            // max-width: 40%;
+            // width: 1em;
+          }
+          .try {}
+}

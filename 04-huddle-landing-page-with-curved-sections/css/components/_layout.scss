@@ -1,0 +1,16 @@
+/*
+ * Layout 
+ */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+  @media screen and (min-width: $mobile-320) and (max-width: $mobile-420) {
+    .container {
+      padding: 1.5rem;
+    }
+  }
+
+  @import "navbar";
+  @import "footer";
