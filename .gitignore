@@ -2,4 +2,4 @@
 00-*/*
 
 .DS_Store
-.sash-cache
+.sass-cache
