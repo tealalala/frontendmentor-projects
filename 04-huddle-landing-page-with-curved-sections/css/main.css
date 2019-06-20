@@ -5,9 +5,9 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.3em;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
   background-color: #FFFFFF; }
 
 html,
@@ -103,32 +103,30 @@ body {
  * Content 
  */
 /*
- * NavBar 
+ * Grow Together 
  */
-header {
-  padding-bottom: 7rem; }
-
-.nav-items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: stretch;
-  align-items: stretch;
-  width: 100%; }
-
-.nav-item {
-  display: flex;
-  flex-basis: auto; }
+.grow-together-text {
+  font-size: 0.9rem;
+  text-align: center; }
 
 /*
  * Headers
  */
-h1 {
-  font-size: 1.7rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 2.5rem;
   text-align: center;
-  padding-bottom: 1.7rem; }
+  padding-bottom: 1.5rem; }
+
+h1 {
+  font-size: 1.7rem; }
+
+h2 {
+  font-size: 1.5rem; }
 
 /*
  * Hero 
@@ -178,5 +176,24 @@ h1 {
  */
 footer {
   text-align: center; }
+
+/*
+ * NavBar 
+ */
+header {
+  padding-bottom: 7rem; }
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+  width: 100%; }
+
+.nav-item {
+  display: flex;
+  flex-basis: auto; }
 
 /*# sourceMappingURL=main.css.map */
