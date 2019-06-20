@@ -1,7 +1,7 @@
 /*
  * Button 
  */
-button {
+.try-button {
   cursor: pointer;
   margin-left: auto;
   font-family: "Open Sans", sans-serif;
@@ -10,7 +10,7 @@ button {
   font-weight: 400;
   text-align: center;
   width: 120px;
-  height: auto;
+  height: 100%;
   padding: 0.2em 0.6em;
   border-radius: 2rem;
   background-color: #FFFFFF;
@@ -19,8 +19,24 @@ button {
   box-shadow: 0 5px 10px rgba(255, 82, 191, 0.16);
 }
 
-button:hover {
-  text-decoration: none;
+.main-button {
+  margin: 0 auto;
+  cursor: pointer;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  padding: 0.2em 0.6em;
+  border-radius: 2rem;
+  background-color: $primary-color-pink;
+  border-color: $primary-color-pink;
+  -webkit-box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+  box-shadow:         4px 4px 7px -1px rgba(50, 50, 50, 0.3);
 }
 
 @media screen and (min-width: $mobile-320) {

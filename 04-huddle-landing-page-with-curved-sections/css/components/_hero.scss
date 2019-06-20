@@ -1,0 +1,44 @@
+/*
+ * Hero 
+ */
+ .hero {
+   margin: 0 auto;
+   width: 90%;
+ }
+    .hero-text {}
+        .hero-text-subheadline {
+          font-size: 0.9rem;
+          text-align: center;
+          padding-bottom: 2rem;
+        }
+        .hero-button {
+          display: flex;
+          justify-content: center;
+          padding-bottom: 5rem;
+        }
+    .hero-image {
+      padding-bottom: 4rem;
+    }
+    .hero-statistics {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+        .hero-statistics-community,
+        .hero-statistics-messages {
+          padding-bottom: 3rem;
+        }
+            .hero-statistics-image {
+              width: 1.5em;
+              padding-bottom: 1rem;
+            }
+            .hero-statistics-number {
+              font-size: 3rem;
+              font-weight: 700;
+              padding-bottom: 1rem;
+            }
+            .hero-statistics-text {
+              font-size: 0.8rem;
+              text-align: center;
+              opacity: 0.5;
+            }
