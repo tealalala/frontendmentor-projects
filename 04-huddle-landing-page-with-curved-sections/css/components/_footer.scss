@@ -2,5 +2,32 @@
  * Footer 
  */
  footer {
-   text-align: center;
+   background-color: $neutral-color-cyan-dark;
+   color: #FFFFFF;
  }
+    .contact-newsletter {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+        .contact {}
+        .newsletter {}
+            .newsletter > h3 {
+              text-transform: uppercase;
+            }
+            .subscription > input {
+              width: 100%;
+              height: 2rem;
+              border: 1rem;
+            }
+    footer > .attribution {
+      text-align: center;
+    }
+
+
+@media screen and (min-width: $mobile-320) and (max-width: $mobile-420) {}
+
+@media screen and (min-width: $desktop-1440) {
+  .contact-newsletter {
+    flex-direction: row;
+  }
+}

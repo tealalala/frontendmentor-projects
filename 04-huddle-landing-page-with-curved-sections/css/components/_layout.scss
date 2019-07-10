@@ -12,9 +12,11 @@
     }
   }
 
+  @import "button";
   @import "content";
-  @import "grow-together";
-  @import "headers";
-  @import "hero";
-  @import "footer";
   @import "navbar";
+  @import "hero";
+  @import "grow-together";
+  @import "build-community";
+  @import "headers";
+  @import "footer";

@@ -51,6 +51,20 @@ body {
 }
 
 /*
+ * Layout 
+ */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .container {
+    padding: 1.5rem;
+  }
+}
+/*
  * Button 
  */
 .try-button {
@@ -91,6 +105,26 @@ body {
   box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
 }
 
+.subscribe-button {
+  margin: 0 auto;
+  cursor: pointer;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  padding: 0.2em 0.6em;
+  border-radius: 0.5rem;
+  background-color: #ff52bf;
+  border-color: #ff52bf;
+  -webkit-box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+  box-shadow: 4px 4px 7px -1px rgba(50, 50, 50, 0.3);
+}
+
 @media screen and (min-width: 320px) {
   button {
     width: 100px;
@@ -101,58 +135,25 @@ body {
  * Content 
  */
 /*
- * Layout 
+ * NavBar 
  */
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 2.5rem;
+header {
+  padding-bottom: 7rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 420px) {
-  .container {
-    padding: 1.5rem;
-  }
-}
-/*
- * Content 
- */
-/*
- * Grow Together 
- */
-.grow-together::before {
-  content: "♥";
-  background: url("../../images/bg-section-top-desktop-1.svg") no-repeat bottom center;
-  background-size: 100%;
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
   width: 100%;
-  display: block;
 }
 
-.grow-together-text {
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-/*
- * Headers
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 2.5rem;
-  text-align: center;
-  padding-bottom: 1.5rem;
-}
-
-h1 {
-  font-size: 1.7rem;
-}
-
-h2 {
-  font-size: 1.5rem;
+.nav-item {
+  display: flex;
+  flex-basis: auto;
 }
 
 /*
@@ -207,33 +208,93 @@ h2 {
   opacity: 0.5;
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-statistics {
+    flex-direction: row;
+  }
+}
 /*
- * Footer 
+ * Grow Together 
  */
-footer {
+.grow-together::before {
+  content: "♥";
+  background: url("../../images/bg-section-top-desktop-1.svg") no-repeat bottom center;
+  background-size: 100%;
+  width: 100%;
+  display: block;
+}
+
+.grow-together-text {
+  font-size: 0.9rem;
   text-align: center;
 }
 
 /*
- * NavBar 
+ * Build Community 
  */
-header {
-  padding-bottom: 7rem;
+.build-community {
+  align: center;
 }
 
-.nav-items {
+.build-community-button {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: stretch;
-  align-items: stretch;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+/*
+ * Headers
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 2.5rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/*
+ * Footer 
+ */
+footer {
+  background-color: #00252e;
+  color: #FFFFFF;
+}
+
+.contact-newsletter {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.newsletter > h3 {
+  text-transform: uppercase;
+}
+
+.subscription > input {
   width: 100%;
+  height: 2rem;
+  border: 1rem;
 }
 
-.nav-item {
-  display: flex;
-  flex-basis: auto;
+footer > .attribution {
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .contact-newsletter {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

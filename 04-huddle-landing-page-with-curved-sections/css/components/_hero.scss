@@ -42,3 +42,9 @@
               text-align: center;
               opacity: 0.5;
             }
+
+@media screen and (min-width: $desktop-1440) {
+  .hero-statistics {
+      flex-direction: row;
+  }
+}
