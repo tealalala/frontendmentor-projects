@@ -1,9 +1,13 @@
 /*
  * Grow Together 
  */
- .grow-together {
-   
- }
+.grow-together::before {
+  content: "♥";
+  background: url("../../images/bg-section-top-desktop-1.svg") no-repeat bottom center;
+  background-size: 100%;
+  width: 100%;
+  display: block;
+}
     .grow-together-image {}
     .grow-together-text {
       font-size: 0.9rem;
