@@ -1,9 +1,12 @@
+import classNames from "classnames";
+
 import Avatar from './Avatar';
 
-export default function Card ({name, subtitle, imageUrl, pullQuote, fullQuote}) {
+export default function Card ({index, name, subtitle, imageUrl, pullQuote, fullQuote}) {
   return (
     <div className='card'>
       <Avatar 
+        index={index}
         name={name}
         subtitle={subtitle}
         imageUrl={imageUrl}

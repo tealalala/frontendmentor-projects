@@ -11,6 +11,7 @@ export default function Home() {
     <div className="testimonials-grid-section-main">
       {data.map((item, index) => 
         <Card 
+          index={index}
           name={item.name}
           subtitle={item.subtitle}
           imageUrl={item.image_url}
