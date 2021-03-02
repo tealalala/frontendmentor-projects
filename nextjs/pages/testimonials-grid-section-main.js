@@ -9,7 +9,15 @@ import FootnoteAttribution from '../src/components/FootnoteAttribution'
 export default function Home() {
   return (
     <div className="testimonials-grid-section-main">
-      {/* add testimonial cards here */}
+      {data.map((item, index) => 
+        <Card 
+          name={item.name}
+          subtitle={item.subtitle}
+          imageUrl={item.image_url}
+          pullQuote={item.pull_quote}
+          fullQuote={item.full_quote}
+        />
+      )}
       <FootnoteAttribution />
     </div>
   );
