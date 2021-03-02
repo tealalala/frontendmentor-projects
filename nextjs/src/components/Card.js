@@ -4,7 +4,7 @@ import Avatar from './Avatar';
 
 export default function Card ({index, name, subtitle, imageUrl, pullQuote, fullQuote}) {
   return (
-    <div className='card'>
+    <div className={classNames('card', 'card-' + index)}>
       <Avatar 
         index={index}
         name={name}
