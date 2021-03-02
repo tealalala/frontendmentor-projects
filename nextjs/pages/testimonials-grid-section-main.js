@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Testimonials-grid-section-main.module.css'
 
 export default function Home() {
   return (
