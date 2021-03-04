@@ -13,6 +13,7 @@ export default function Home() {
     <div className="testimonials-grid-section-main">
       {data.map((item, index) => 
         <Card 
+          key={index}
           index={index}
           name={item.name}
           subtitle={item.subtitle}
