@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import theme from "../styles/theme/theme-testimonials-grid-section-main.js";
+import theme from "../styles/themes/theme-testimonials-grid-section-main.js";
 import styles from '../styles/Testimonials-grid-section-main.module.css'
 
 import data from '../src/data/testimonials-grid-section-main.js'
