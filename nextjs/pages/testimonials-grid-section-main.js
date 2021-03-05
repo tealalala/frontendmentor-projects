@@ -36,6 +36,11 @@ export default function Home() {
             "bottom-1 bottom-2 bottom-2 side-1";
         }
 
+        .card {
+          padding: 24px;
+          border-radius: 12px;
+        }
+
         .card.card-0 {
           grid-area: top-1;
         }
