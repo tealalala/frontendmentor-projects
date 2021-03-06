@@ -41,24 +41,71 @@ export default function Home() {
           border-radius: 12px;
         }
 
+        .card-0 .name,
+        .card-1 .name,
+        .card-3 .name,
+        .card-0 .pull-quote,
+        .card-1 .pull-quote,
+        .card-3 .pull-quote {
+          color: ${theme.colors.white};
+        }
+
+        .card-0 .subtitle,
+        .card-1 .subtitle,
+        .card-3 .subtitle {
+          color: ${theme.colors.lightGray};
+          opacity: 0.5;
+        }
+
+        .card-0 .full-quote,
+        .card-1 .full-quote,
+        .card-3 .full-quote {
+          color: ${theme.colors.white};
+          opacity: 0.7;
+        }
+
+        .card-2 .name,
+        .card-4 .name,
+        .card-2 .pull-quote,
+        .card-4 .pull-quote {
+          color: ${theme.colors.veryDarkBlackishBlue};
+        }
+
+        .card-2 .subtitle,
+        .card-4 .subtitle {
+          color: ${theme.colors.veryDarkGrayishBlue};
+          opacity: 0.5;
+        }
+
+        .card-2 .full-quote,
+        .card-4 .full-quote {
+          color: ${theme.colors.veryDarkGrayishBlue};
+          opacity: 0.7;
+        }
+
         .card.card-0 {
           grid-area: top-1;
+          background-color: ${theme.colors.moderateViolet};
         }
 
         .card.card-1 {
           grid-area: top-2;
+          background-color: ${theme.colors.veryDarkGrayishBlue};
         }
 
         .card.card-2 {
           grid-area: bottom-1;
+          background-color: ${theme.colors.white};
         }
 
         .card.card-3 {
           grid-area: bottom-2;
+          background-color: ${theme.colors.veryDarkBlackishBlue};
         }
 
         .card.card-4 {
           grid-area: side-1;
+          background-color: ${theme.colors.white};
         }
       `}</style>
     </div>

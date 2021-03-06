@@ -11,12 +11,8 @@ export default function Card ({index, name, subtitle, imageUrl, pullQuote, fullQ
         subtitle={subtitle}
         imageUrl={imageUrl}
       />
-      <div className='pull-quote'>
-        {pullQuote}
-      </div>
-      <div className='full-quote'>
-        {fullQuote}
-      </div>
+      <div className="pull-quote">{pullQuote}</div>
+      <div className="full-quote">{fullQuote}</div>
     </div>
-  )
+  );
 }
