@@ -1,9 +1,9 @@
 const themeTestimomnialsGrid = {
   body: {
-    fontFamily: '',
-    size: '13px',
+    fontFamily: 'Barlow Semi Condensed',
+    fontSize: '13px',
     fontWeightNormal: '500',
-    fontWeightHeavy: '600'
+    fontWeightMedium: '600'
   },
   colors: {
     moderateViolet: 'hsl(263, 55%, 52%)',

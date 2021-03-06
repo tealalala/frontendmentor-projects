@@ -26,14 +26,19 @@ export default function Home() {
       </div>
       <FootnoteAttribution />
       <style global jsx>{`
+        @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
         .testimonials-grid-section-main {
           display: grid;
           grid-template-columns: auto auto auto auto;
           grid-template-rows: auto auto;
-          gap: 32px 32px;
+          gap: 24px 24px;
           grid-template-areas:
             "top-1 top-1 top-2 side-1"
             "bottom-1 bottom-2 bottom-2 side-1";
+          font-family: ${theme.body.fontFamily};
+          font-size: ${theme.body.fontSize};
+          font-weight: ${theme.body.fontWeightNormal};
         }
 
         .card {
@@ -81,6 +86,15 @@ export default function Home() {
         .card-4 .full-quote {
           color: ${theme.colors.veryDarkGrayishBlue};
           opacity: 0.7;
+        }
+
+        .card-0 .pull-quote,
+        .card-1 .pull-quote,
+        .card-2 .pull-quote,
+        .card-3 .pull-quote,
+        .card-4 .pull-quote {
+          font-weight: 600;
+          font-size: 20px;
         }
 
         .card.card-0 {
