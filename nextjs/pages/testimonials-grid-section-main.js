@@ -144,16 +144,52 @@ export default function Home() {
         }
 
         // Extra small devices (portrait phones, less than 576px)
-        @media (max-width: 575.98px) {}
+        @media (max-width: 576px) {
+        }
+
+        @media (max-width: 750px) {
+          .testimonials-grid-section-main {
+            display: flex;
+            flex-direction: column;
+          }
+        }
 
         // Small devices (landscape phones, less than 768px)
-        @media (max-width: 767.98px) {}
+        @media (max-width: 768px) {
+        }
 
         // Medium devices (tablets, less than 992px)
-        @media (max-width: 991.98px) {}
+        @media (max-width: 992px) {
+          .testimonials-grid-section-main {
+            grid-template-columns: 0.9fr 1fr 0.9fr;
+            grid-template-rows: auto auto auto;
+            gap: 24px 24px;
+            grid-template-areas:
+              "top-1 top-1 top-2"
+              "middle-1 middle-2 middle-2"
+              "bottom-1 bottom-1 bottom-1";
+            padding: 32px 0px;
+          }
+          .card.card-0 {
+            grid-area: top-1;
+          }
+          .card.card-1 {
+            grid-area: top-2;
+          }
+          .card.card-2 {
+            grid-area: middle-1;
+          }
+          .card.card-3 {
+            grid-area: middle-2;
+          }
+          .card.card-4 {
+            grid-area: bottom-1;
+          }
+        }
 
         // Large devices (desktops, less than 1200px)
-        @media (max-width: 1199.98px) {}
+        @media (max-width: 1200px) {
+        }
       `}</style>
     </div>
   );
