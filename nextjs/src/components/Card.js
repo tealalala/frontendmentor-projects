@@ -12,7 +12,7 @@ export default function Card ({index, name, subtitle, imageUrl, pullQuote, fullQ
         imageUrl={imageUrl}
       />
       <div className="pull-quote">{pullQuote}</div>
-      <div className="full-quote">{fullQuote}</div>
+      <div className="full-quote">"{fullQuote}"</div>
     </div>
   );
 }

@@ -30,15 +30,34 @@ export default function Home() {
 
         .testimonials-grid-section-main {
           display: grid;
-          grid-template-columns: auto auto auto auto;
+          // grid-template-columns: auto auto auto auto;
+          grid-template-columns: 0.8fr 1fr 0.8fr 0.8fr;
           grid-template-rows: auto auto;
           gap: 24px 24px;
           grid-template-areas:
             "top-1 top-1 top-2 side-1"
             "bottom-1 bottom-2 bottom-2 side-1";
+          padding: 32px 0px;
           font-family: ${theme.body.fontFamily};
           font-size: ${theme.body.fontSize};
           font-weight: ${theme.body.fontWeightNormal};
+        }
+
+        .avatar {
+          display: flex;
+          padding-bottom: 16px;
+        }
+
+        .avatar .image {
+          padding-right: 16px;
+        }
+
+        .avatar img {
+          border-radius: 50%;
+        }
+
+        .avatar p {
+          margin-bottom: 0px !important;
         }
 
         .card {
@@ -93,8 +112,10 @@ export default function Home() {
         .card-2 .pull-quote,
         .card-3 .pull-quote,
         .card-4 .pull-quote {
+          padding-bottom: 16px;
           font-weight: 600;
           font-size: 20px;
+          line-height: 28px;
         }
 
         .card.card-0 {
