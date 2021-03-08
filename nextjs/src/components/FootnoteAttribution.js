@@ -1,11 +1,18 @@
-export default function FootnoteAttribution() {
+export default function FootnoteAttribution({frontendmentor_challenge_name}) {
   return (
     <div className="attribution">
-      Challenge by{" "}
+      Challenge by {" "}
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
-      </a>
-      . Coded by <a href="https://github.com/tealalala">Tea La</a>.
+      </a>: {frontendmentor_challenge_name}
+      .<br/>
+      Coded by <a href="https://github.com/tealalala">Tea La</a>.
+      <style global jsx>{`
+        .attribution {
+          padding-bottom: 32px;
+          text-align: center;
+        }
+      `}</style>
     </div>
   );
 }

@@ -24,7 +24,7 @@ export default function Home() {
           />
         ))}
       </div>
-      <FootnoteAttribution />
+      <FootnoteAttribution frontendmentor_challenge_name="Testimonials grid section" />
       <style global jsx>{`
         @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 
