@@ -2,7 +2,7 @@ export default [
   {
     name: "Daniel Clifford",
     subtitle: "Verified Graduate",
-    image_url: "/testimonials-grid-section-main/image-daniel.jpg",
+    image_url: "/testimonials-grid-section/image-daniel.jpg",
     pull_quote:
       "I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.",
     full_quote:
@@ -11,7 +11,7 @@ export default [
   {
     name: "Jonathan Walters",
     subtitle: "Verified Graduate",
-    image_url: "/testimonials-grid-section-main/image-jonathan.jpg",
+    image_url: "/testimonials-grid-section/image-jonathan.jpg",
     pull_quote: "The team was very supportive and kept me motivated",
     full_quote:
       "I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself.",
@@ -19,7 +19,7 @@ export default [
   {
     name: "Jeanette Harmon",
     subtitle: "Verified Graduate",
-    image_url: "/testimonials-grid-section-main/image-jeanette.jpg",
+    image_url: "/testimonials-grid-section/image-jeanette.jpg",
     pull_quote: "An overall wonderful and rewarding experience",
     full_quote:
       "Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love.",
@@ -27,7 +27,7 @@ export default [
   {
     name: "Patrick Abrams",
     subtitle: "Verified Graduate",
-    image_url: "/testimonials-grid-section-main/image-patrick.jpg",
+    image_url: "/testimonials-grid-section/image-patrick.jpg",
     pull_quote:
       "Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.",
     full_quote:
@@ -36,7 +36,7 @@ export default [
   {
     name: "Kira Whittle",
     subtitle: "Verified Graduate",
-    image_url: "/testimonials-grid-section-main/image-kira.jpg",
+    image_url: "/testimonials-grid-section/image-kira.jpg",
     pull_quote: "Such a life-changing experience. Highly recommended!",
     full_quote:
       "Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend!",
