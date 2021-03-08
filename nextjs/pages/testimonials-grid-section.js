@@ -121,7 +121,7 @@ export default function Home() {
         .card.card-0 {
           grid-area: top-1;
           background: ${theme.colors.moderateViolet}
-            url("/testimonials-grid-section-main/bg-pattern-quotation.svg")
+            url("/testimonials-grid-section/bg-pattern-quotation.svg")
             no-repeat right 27% top 0%;
           background-size: 20%;
         }
