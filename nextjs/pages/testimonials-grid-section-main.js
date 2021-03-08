@@ -31,7 +31,7 @@ export default function Home() {
         .testimonials-grid-section-main {
           display: grid;
           // grid-template-columns: auto auto auto auto;
-          grid-template-columns: 0.8fr 1fr 0.8fr 0.8fr;
+          grid-template-columns: 0.85fr 1fr 0.8fr 0.8fr;
           grid-template-rows: auto auto;
           gap: 24px 24px;
           grid-template-areas:
@@ -63,6 +63,7 @@ export default function Home() {
         .card {
           padding: 24px;
           border-radius: 12px;
+          border: 0px;
         }
 
         .card-0 .name,
@@ -120,7 +121,10 @@ export default function Home() {
 
         .card.card-0 {
           grid-area: top-1;
-          background-color: ${theme.colors.moderateViolet};
+          background: ${theme.colors.moderateViolet}
+            url("/testimonials-grid-section-main/bg-pattern-quotation.svg")
+            no-repeat right 27% top 0%;
+          background-size: 20%;
         }
 
         .card.card-1 {
@@ -143,19 +147,40 @@ export default function Home() {
           background-color: ${theme.colors.white};
         }
 
+        .card.card-0 .avatar img {
+          border: 2px solid #ae90df !important;
+        }
+
+        .card.card-3 .avatar img {
+          border: 2px solid ${theme.colors.moderateViolet} !important;
+        }
+
+        .card.card-1 .avatar img,
+        .card.card-2 .avatar img,
+        .card.card-4 .avatar img {
+          border: 2px solid ${theme.colors.white} !important;
+        }
+
+        .card.card-2,
+        .card.card-4 {
+          box-shadow: 1rem 1rem 8rem -1rem ${theme.colors.lightGray};
+        }
+
         // Extra small devices (portrait phones, less than 576px)
         @media (max-width: 576px) {
         }
 
-        @media (max-width: 750px) {
+        // Small devices (landscape phones, less than 768px)
+        @media (max-width: 768px) {
           .testimonials-grid-section-main {
             display: flex;
             flex-direction: column;
           }
-        }
-
-        // Small devices (landscape phones, less than 768px)
-        @media (max-width: 768px) {
+          .card.card-0 {
+            background-repeat: no-repeat;
+            background-size: right 27% top 0%;
+            background-size: 20%;
+          }
         }
 
         // Medium devices (tablets, less than 992px)
