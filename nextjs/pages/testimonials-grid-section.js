@@ -9,7 +9,7 @@ import FootnoteAttribution from '../src/components/FootnoteAttribution'
 
 export default function Home() {
   return (
-    <div className="container">
+    <section className="container">
       <div className="testimonials-grid-section-main">
         {data.map((item, index) => (
           <Card
@@ -121,8 +121,8 @@ export default function Home() {
         .card.card-0 {
           grid-area: top-1;
           background: ${theme.colors.moderateViolet}
-            url("/testimonials-grid-section/bg-pattern-quotation.svg")
-            no-repeat right 27% top 0%;
+            url("/testimonials-grid-section/bg-pattern-quotation.svg") no-repeat
+            right 27% top 0%;
           background-size: 20%;
         }
 
@@ -215,6 +215,6 @@ export default function Home() {
         @media (max-width: 1200px) {
         }
       `}</style>
-    </div>
+    </section>
   );
 }
