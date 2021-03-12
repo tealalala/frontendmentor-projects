@@ -10,7 +10,7 @@ import FootnoteAttribution from '../src/components/FootnoteAttribution'
 export default function Home() {
   return (
     <section className="container">
-      <div className="testimonials-grid-section-main">
+      <div className="testimonials-grid-section">
         {data.map((item, index) => (
           <Card
             key={index}
@@ -27,7 +27,7 @@ export default function Home() {
       <style global jsx>{`
         @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 
-        .testimonials-grid-section-main {
+        .testimonials-grid-section {
           display: grid;
           // grid-template-columns: auto auto auto auto;
           grid-template-columns: 0.85fr 1fr 0.8fr 0.8fr;
@@ -171,7 +171,7 @@ export default function Home() {
 
         // Small devices (landscape phones, less than 768px)
         @media (max-width: 768px) {
-          .testimonials-grid-section-main {
+          .testimonials-grid-section {
             display: flex;
             flex-direction: column;
           }
@@ -184,7 +184,7 @@ export default function Home() {
 
         // Medium devices (tablets, less than 992px)
         @media (max-width: 992px) {
-          .testimonials-grid-section-main {
+          .testimonials-grid-section {
             grid-template-columns: 0.9fr 1fr 0.9fr;
             grid-template-rows: auto auto auto;
             gap: 24px 24px;
