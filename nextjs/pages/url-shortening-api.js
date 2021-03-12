@@ -73,7 +73,7 @@ export default function Home() {
         Contact
         
       </div>
-      <FootnoteAttribution frontendmentor_challenge_name="Testimonials grid section" />
+      <FootnoteAttribution frontendmentor_challenge_name="URL shortening API landing page" />
       <style global jsx>{`
         @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 
