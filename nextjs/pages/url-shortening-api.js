@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import theme from "../styles/themes/theme-testimonials-grid-section.js";
 
-import data from '../src/data/testimonials-grid-section.js'
+import data from '../src/data/url-shortening-api.js'
 
 import Card from '../src/components/Card'
 import FootnoteAttribution from '../src/components/FootnoteAttribution'
