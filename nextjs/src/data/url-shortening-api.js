@@ -2,7 +2,7 @@ export default [
   {
     company: {
       name: "Shortly",
-      url: "#"
+      url: "/home"
     }
   },
   {
@@ -18,6 +18,18 @@ export default [
       {
         title: "Resources",
         url: "/resources",
+      },
+    ],
+  },
+  {
+    navigation_right: [
+      {
+        title: "Login",
+        url: "/login",
+      },
+      {
+        title: "Sign up",
+        url: "/sign-up",
       },
     ],
   },
