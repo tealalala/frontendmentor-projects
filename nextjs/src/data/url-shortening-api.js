@@ -1,5 +1,11 @@
 export default [
   {
+    company: {
+      name: "Shortly",
+      url: "#"
+    }
+  },
+  {
     navigation_left: [
       {
         title: "Features",
