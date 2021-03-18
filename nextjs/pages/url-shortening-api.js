@@ -4,7 +4,7 @@ import theme from "../styles/themes/theme-testimonials-grid-section.js";
 
 import data from '../src/data/url-shortening-api.js'
 
-import Card from '../src/components/Card'
+import Hero from '../src/components/Hero'
 import FootnoteAttribution from '../src/components/FootnoteAttribution'
 import Navigation from '../src/components/Navigation'
 
@@ -12,7 +12,7 @@ export default function Home() {
   const dataCompany = data[0]["company"];
   const dataNavLeft = data[1]["navigation_left"];
   const dataNavRight = data[2]["navigation_right"];
-  const dataMainHeader = data[3]["main_header"];
+  const dataHero = data[3]["hero"];
   const dataBodyContent = data[4]["body_content"];
   const dataBodyCard = data[5]["body_card"];
   const dataFooterCta = data[6]["footer_cta"];
@@ -27,6 +27,9 @@ export default function Home() {
         data_company={dataCompany}
         data_nav_left={dataNavLeft}
         data_nav_right={dataNavRight}
+      />
+      <Hero 
+        data_hero={dataHero}
       />
       <section className="container">
         <div className="url-shortening-api">

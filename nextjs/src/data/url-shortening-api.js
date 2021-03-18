@@ -2,8 +2,8 @@ export default [
   {
     company: {
       name: "Shortly",
-      url: "/home"
-    }
+      url: "/home",
+    },
   },
   {
     navigation_left: [
@@ -34,12 +34,14 @@ export default [
     ],
   },
   {
-    main_header: {
+    hero: {
       title: "More than just shorter links",
       paragraph:
         "Build your brand’s recognition and get detailed insights on how your links are performing.",
       cta_title: "Get Started",
       cta_link: "/get-started",
+      image_url: "/url-shortening-api/illustration-working.svg",
+      image_alt_tag: "Illustration of working individual",
     },
   },
   {
@@ -138,20 +140,20 @@ export default [
     social: [
       {
         image: "/url-shortening-api/icon-facebook.svg",
-        url: "/facebook"
+        url: "/facebook",
       },
       {
         image: "/url-shortening-api/icon-twitter.svg",
-        url: "/twitter"
+        url: "/twitter",
       },
       {
         image: "/url-shortening-api/icon-pinterest.svg",
-        url: "/pinterest"
+        url: "/pinterest",
       },
       {
         image: "/url-shortening-api/icon-instagram.svg",
-        url: "/instagram"
-      }
-    ]
-  }
+        url: "/instagram",
+      },
+    ],
+  },
 ];
